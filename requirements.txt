@@ -77,6 +77,7 @@ Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1700607939
 pyphen==0.14.0
 python-box==6.1.0
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-dotenv==1.0.0
 pytz==2023.3.post1
 PyYAML==6.0.1
 pyzmq @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_23n9bfwjq5/croot/pyzmq_1686601381911/work
