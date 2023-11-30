@@ -8,4 +8,10 @@ With the use of langchain (in combination with CometML to monitor every step and
 
 The presented solution in the Notebook shows the simple way.
 
+## Used packages
+1. Langchain
+2. OpenAI
+3. SERPAPI (https://serpapi.com)
+4. CometML for Logging
+
 Credits to Santiago on X.
