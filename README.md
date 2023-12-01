@@ -18,9 +18,10 @@ This project explores a potential solution: leveraging Langchain. By combining L
 
 To get started with this project, follow these steps:
 
-1. Install Langchain.
-2. Set up CometML for comprehensive logging.
-3. Explore the provided notebook for a practical example.
+1. Install requirements.txt
+2. Set up all APIs in a .env file
+3. Set up CometML for comprehensive logging.
+4. Explore the provided notebook for a practical example.
 
 ## Used Packages
 
