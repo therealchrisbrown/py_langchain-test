@@ -1,17 +1,38 @@
-# Testing for Langchain versus GPT
+# Langchain vs GPT: Realtime Data Testing
 
-One big problem working with GPT-4 (or the previous models) is that it lacks to get realtime data. With the possibilities to use GPT-Builder or OpenAI Functions you can solve that specific problem quite well but there is more to it: OpenAI is quite opaque in its parameters. In other words, you simply cannot peek into the engine room.
+## Overview
 
-## One possible Solution: Use Langchain
+Working with GPT-4 (or previous models) often poses challenges in obtaining real-time data. While solutions like GPT-Builder or OpenAI Functions can address this issue, there's an additional complexity—OpenAI's opacity in revealing its parameters, restricting users from peering into the engine room.
 
-With the use of langchain (in combination with CometML to monitor every step and get a good feeling of the thinking process the system is taking) you can solve this problem and get realtime data. 
+This project explores a potential solution: leveraging Langchain. By combining Langchain with CometML for comprehensive monitoring, you can not only address the real-time data challenge but also gain insights into the underlying thought processes of the system.
 
-The presented solution in the Notebook shows the simple way.
+## Key Features
 
-## Used packages
-1. Langchain
-2. OpenAI
-3. SERPAPI (https://serpapi.com)
-4. CometML for Logging
+- **Realtime Data Access:** Langchain facilitates the acquisition of real-time data, addressing a common limitation in working with GPT models.
+  
+- **Transparency and Monitoring:** CometML is employed to monitor each step, providing users with a clear understanding of the system's decision-making process.
 
-Credits to Santiago on X.
+- **Notebook Example:** The accompanying notebook demonstrates a straightforward implementation of the presented solution, showcasing how Langchain and CometML can be effectively utilized.
+
+## Getting Started
+
+To get started with this project, follow these steps:
+
+1. Install Langchain.
+2. Set up CometML for comprehensive logging.
+3. Explore the provided notebook for a practical example.
+
+## Used Packages
+
+1. **Langchain:** The core package for addressing real-time data challenges.
+2. **OpenAI:** Used in conjunction with Langchain for natural language processing.
+3. **SERPAPI:** Integrated for additional functionalities related to Search Engine Results Pages (https://serpapi.com).
+4. **CometML:** Employed for detailed logging and monitoring.
+
+## Credits
+
+Special thanks to Santiago on X for the idea.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), allowing for open collaboration and modification.
